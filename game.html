@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+
+
+    <title>Game Asteroides</title>
+</head>
+
+<body>
+    <h1>FIAP - STARS</h1>
+    <div id="div-canvas">
+        <canvas id="my-canvas" width="800" height="400" style="border: cornflowerblue solid 1px;"></canvas>
+        <div id="score">
+            <label for="level">Level:</label>
+            <input type="number" name="level" id="level">
+            <label for="timer">Timer:</label>
+            <input type="number" name="timer" id="timer">
+            <label for="pontos">Pontos:</label>
+            <input type="number" name="pontos" id="pontos">
+            <label for="status-game">Status:</label>
+            <input type="text" name="status-game" id="status-game">
+            <input type="button" id="restart-game" value="Restart">
+        </div>
+        <div id="instructions">
+            <h3>Instruções:</h3>
+            <p><span>Controles:</span> Cursor: ↑↓←→ (ou) Teclas: WSDA.</p>
+            <p><span>Iniciar:</span> O jogo carrega no browser e inmediatamente inicia.</p>
+            <p>Faz click no canvas se os controles não responder.</p>
+            <p><span>Jogar:</span> Fuge dos asteroides ate alcanzar o nivel 10.</p>
+            <p>A nave fica posicionada hacia o norte depois de cada movimento, sempre a postos.</p>
+            <h3>Mecánica do jogo:</h3>
+            <p><span>Level maximo:</span> 10 . Equivale ao nivel maximo do jogo</p>
+            <p><span>Pontuação:</span> A cada asteroide mostrado no canvas sera atribuido "1 ponto" ao jogador.</p>
+            <p><span>Timer:</span> Duração de cada level é de 3 segundos.</p>
+            <p><span>Dificuldade:</span> Aleatoriedade aplicada na definição do exe "Y" do novo asteroide.</p>
+            <ul>
+                <li>
+                    <p>A cada segundo # "2" de cada level, será criado um novo asteroide. ☄️</p>
+                </li>
+                <li>
+                    <p>A cada level "PAR" serão criados entre "2 e 5" novos asteroides. ☄️☄️☄️☄️☄️☄️ </p>
+                </li>
+                <li>
+                    <p>A cada level "multiplo de 5" serão criados "2 e 8" novos asteroides ☄️☄️☄️☄️☄️☄️☄️☄️ (Watch out!!)
+                    </p>
+                </li>
+            </ul>
+            <p><span>Restart:</span> O botão "Restart", da um reset no game atual. </p>
+            <span>Boa Sorte!!: </span>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

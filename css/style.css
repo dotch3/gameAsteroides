@@ -1,0 +1,60 @@
+    #div-canvas {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        flex: content;
+        margin-top: 25px;
+    }
+    
+    canvas {
+        /* background-color: rgb(60, 60, 63); */
+        background-image: url('../imagens/fundo.gif');
+        background-size: cover;
+    }
+    
+    h1 {
+        font-family: Roboto;
+        font-weight: 600;
+        color: #31afb4;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 42px;
+        font-family: Roboto;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    h3,
+    span {
+        color: #31afb4;
+        font-family: Roboto;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    p {
+        color: #0f354dcb;
+        font-family: Roboto;
+        font-weight: 600;
+    }
+    
+    input {
+        width: 100px;
+        border: solid 2px rgba(0, 152, 194, 1) !important;
+    }
+    
+    label {
+        font-weight: 700;
+    }
+    
+    #restart-game {
+        background-color: #31afb4
+    }
+    
+    #restart-game:hover {
+        outline: none !important;
+        border: solid 2px #31afb4 !important;
+        background-color: rgba(0, 152, 194, 1)
+    }
